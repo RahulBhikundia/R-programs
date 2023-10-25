@@ -1,0 +1,5 @@
+a = seq(0,40, by=1)
+b = dbinom(a, 40, 0.5)
+png(file="dbinom.png")
+plot(a,b)
+dev.off()
